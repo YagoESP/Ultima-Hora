@@ -2,18 +2,17 @@
 =======Structure======
 ======================*/
 
-header{
-   
-}
 
-.contenedor{
-    display: flex;
+
+header{
+    padding: 1em;
+    width: 100%;
 }
 
 main{
    padding-right: 0.9em;
    padding-left: 0.9em;
-   width: 100%;
+                         
 }
 
 /*====================
@@ -106,6 +105,7 @@ h5, h6 {
 a, td, p, button, span{
     font-family: "Roboto";
     text-decoration: none;
+    font-family: Roboto,"Helvetica Neue",Arial;
 }
 
 
@@ -115,4 +115,128 @@ a, td, p, button, span{
 
 img {
     max-width: 100%;
+}
+
+
+/*====================
+========Header=========
+======================*/
+
+.header-top{
+    background: #E6E6E6;
+    padding: 1%;
+}
+
+.header-top-featured-news li{
+    padding-left: 0.70rem;
+}
+
+.header-top-featured-news ul{
+    display: flex;
+    justify-content: center;
+    font-size: .75rem;
+}
+
+.header-top-featured-news ul li{
+    color: #CD0000;
+}
+
+
+.header-top-editions ul{
+    font-size: .7rem;
+}
+
+.header-top-editions ul{
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-main{
+    background: #CD0000;
+    padding: 2%;
+    text-align: center;
+    
+}
+
+
+.header-main-menu-button span{
+    color: white;
+    font-size: 400%;
+}
+
+.header-main-logo svg{
+    fill: white;
+    padding-top: 4%;
+}
+
+.header-main-users{
+    display: flex;
+}
+
+.header-main-users-login button{
+    background: #E6E6E6;
+    border: none;
+    text-align: center;
+    margin-top: 8%;
+    
+}
+
+.header-main-users-register button{
+    background:#FFC700;
+    padding: 15%;
+    margin: 10%;
+    font-style: italic;
+    border: none;
+}
+
+.header-menu{
+    border:darkgrey 15px;
+}
+
+.header-menu ul{
+    background: #E6E6E6;
+    display: flex;
+    justify-content: space-between;
+    padding: 1%;
+}
+
+
+/*====================
+========Ads==========
+======================*/
+
+.ad{
+    width: 100%;
+}
+
+.ad.sticky{
+    position: sticky;
+}
+
+/*====================
+========News==========
+======================*/
+
+.news{
+
+}
+
+.news-image{
+
+}
+
+.news-category{
+
+}
+
+.news-title{
+
+}
+
+.news-description{
+
+}
+
+.news-author{
+
 }
